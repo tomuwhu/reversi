@@ -37,7 +37,7 @@ var ej = [0, 0]
               })
             }
           })
-          next = next - 1 ? 1 : 2
+          next = [2, 1][next - 1]
           table = table
         }
       }}>
@@ -49,6 +49,7 @@ var ej = [0, 0]
   </tr>
 {/each}
 </table>
+<hr>
 <table>
   <td class="x1-1"><table><td class="z1"></td></table></td>
   <td class="ej">
