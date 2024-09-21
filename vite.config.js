@@ -7,6 +7,6 @@ export default defineConfig({
   base: 'reversi',
   build: {
     outDir: 'docs',
-    emptyOutDir: true, // also necessary
+    emptyOutDir: true
   }
 })
