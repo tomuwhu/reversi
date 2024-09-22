@@ -38,7 +38,6 @@ var ej = [0, 0]
             }
           })
           next = [2, 1][next - 1]
-          table = table
         }
       }}>
         {#if td}
