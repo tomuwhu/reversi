@@ -1,5 +1,6 @@
 <script>
-const [n, m] = [10, 15]
+var [n, m] = [10, 15]
+if (window.innerWidth < 900) [n, m] = [8, 6]
 var table =Array(n).fill().map(()=>Array(m).fill(0))
 var next = 1
 var ej = [0, 0]
