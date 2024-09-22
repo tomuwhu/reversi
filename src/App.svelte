@@ -4,7 +4,6 @@ var table =Array(n).fill().map(()=>Array(m).fill(0))
 var next = 1
 var ej = [0, 0]
 </script>
-
 <main>
 <h1>Reversi</h1>
 <table>
